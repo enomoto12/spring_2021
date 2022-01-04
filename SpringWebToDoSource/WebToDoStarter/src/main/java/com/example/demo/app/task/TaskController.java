@@ -42,6 +42,8 @@ public class TaskController {
     @GetMapping
     public String task(TaskForm taskForm, Model model) {
 
+    	// お試し変更
+
     	//新規登録か更新かを判断する仕掛け
     	taskForm.setNewTask(true);
 
